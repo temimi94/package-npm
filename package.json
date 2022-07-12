@@ -1,7 +1,7 @@
 {
-  "name": "typescript-components-by-rupert",
-  "version": "1.0.0",
-  "description": "A simple component library to demonstrate publishing to npm",
+  "name": "my-custom-greeter",
+  "version": "1.0.1",
+  "description": "A simple component to say hello",
   "main": "index.js",
   "scripts": {
     "clean": "rm -rf dist",
@@ -9,23 +9,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fildon/typescript-components-by-rupert.git"
+    "url": "git+https://github.com/pasdagepourcoder/custom-component-greeter.git"
   },
   "keywords": [
     "react",
     "typescript"
   ],
   "author": {
-    "name": "Rupert Foggo McKay",
-    "url": "https://fildon.me/"
+    "name": "pasdagepourcoder"
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fildon/typescript-components-by-rupert/issues"
+    "url": "https://github.com/pasdagepourcoder/custom-component-greeter/issues"
   },
-  "homepage": "https://github.com/fildon/typescript-components-by-rupert#readme",
+  "homepage": "https://github.com/pasdagepourcoder/custom-component-greeter#readme",
   "devDependencies": {
     "@types/react": "^17.0.14",
+    "@types/react-dom": "^18.0.6",
+    "@types/react-transition-group": "^4.4.5",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "typescript": "^4.3.5"
