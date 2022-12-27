@@ -1,2 +1,2 @@
-export { Counter } from "./counter";
-export { Greeter } from "./greeter";
+export { Modal } from "./modal";
+export { UseModal } from "./useModal";
